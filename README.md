@@ -1,6 +1,10 @@
-# CRDT-RGA-based-Collaborative-Editor
+# CRDT-RGA-based-collaborative-editor
 
-Real-time collaborative text editor built from scratch using **RGA(Replicated Growable Array) (CRDT)** with WebSocket-based synchronization, live cursor presence, and a **HTML-TS + Node.js** architecture. Designed for conflict-free distributed editing and low-latency multi-user collaboration.
+Real-time collaborative text editor built from scratch using a Replicated Growable Array (RGA), a type of Conflict-free Replicated Data Type (CRDT), enabling consistent and conflict-free state across distributed clients.
+
+The system uses WebSocket-based communication for low-latency, bidirectional synchronization, supporting features such as live cursor presence and concurrent multi-user editing.
+
+Implemented with a HTML (HyperText Markup Language) and TypeScript frontend, along with a Node.js backend, the architecture is designed to handle distributed state convergence efficiently while maintaining responsiveness and scalability.
 
 ---
 
